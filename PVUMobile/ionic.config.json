@@ -1,0 +1,7 @@
+{
+  "name": "pvu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
