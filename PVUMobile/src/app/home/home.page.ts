@@ -16,12 +16,12 @@ export class HomePage {
     const options: InAppBrowserOptions = {
       hideurlbar: 'yes'
     };
-    this.browser.create('http://localhost:8000/', '_self', options );
+    this.browser.create('http://pvunidas.ar/', '_self', options );
     }
   openUrlWeb(){
     const options: InAppBrowserOptions = {
       hideurlbar: 'yes'
     };
-    this.browser.create('http://localhost:8000/', '_system', options );
+    this.browser.create('http://pvunidas.ar/', '_system', options );
     }
 }
